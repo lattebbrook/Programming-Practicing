@@ -18,6 +18,26 @@ public class BasicCalculator {
             case '/' -> System.out.println(inputFirst/inputSecond);
             default -> System.out.println("Invalid operator");
         }
+        
+        /*
+        Traditional
+        switch (.....) {
+            case 1:
+			//do something if value = 1
+            break;
+            case 2:
+			//do something if value = 2
+            break;
+            case 3:
+			//do something if value = 3
+            break;
+            //do something else...
+            default:
+            System.out.println("ERRORS");
+            break;
+        }
+```
+        */
 
     }
 }
