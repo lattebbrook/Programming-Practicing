@@ -10,22 +10,13 @@ public class BasicCalculator {
         char operator = '+';
         double inputSecond = sc.nextDouble();
 
+        //enhance switch for Java 9.
         switch (operator) {
-            case '+':
-                System.out.println(inputFirst+inputSecond);
-                break;
-            case '-':
-                System.out.println(inputFirst-inputSecond);
-                break;
-            case '*':
-                System.out.println(inputFirst*inputSecond);
-                break;
-            case '/':
-                System.out.println(inputFirst/inputSecond);
-                break;
-            default:
-                System.out.println("Invalid operator");
-                break;
+            case '+' -> System.out.println(inputFirst+inputSecond);
+            case '-' -> System.out.println(inputFirst-inputSecond);
+            case '*' -> System.out.println(inputFirst*inputSecond);
+            case '/' -> System.out.println(inputFirst/inputSecond);
+            default -> System.out.println("Invalid operator");
         }
 
     }
