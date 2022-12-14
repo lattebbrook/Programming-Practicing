@@ -4,7 +4,7 @@ public class BasicCalculator {
 
     public static void main(String args[])
     {
-        System.out.println("Instruction, input first and then operator then second number i.e. 1 + 1 then enter to get result");
+        System.out.println("Instruction, input first and then second number i.e. 1 and 1 then enter to get result");
         Scanner sc = new Scanner(System.in);
         double inputFirst = sc.nextDouble();
         char operator = '+';
